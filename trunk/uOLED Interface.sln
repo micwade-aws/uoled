@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uOLED Interface", "uOLED Interface\uOLED Interface.csproj", "{80D53E6C-ECAD-44DB-B504-78F70294888B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test uOLED Interface", "Test uOLED Interface\Test uOLED Interface.csproj", "{7B9627A0-0C48-4A50-9FF1-FE9A9C1CDFDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D53E6C-ECAD-44DB-B504-78F70294888B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D53E6C-ECAD-44DB-B504-78F70294888B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D53E6C-ECAD-44DB-B504-78F70294888B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D53E6C-ECAD-44DB-B504-78F70294888B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9627A0-0C48-4A50-9FF1-FE9A9C1CDFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9627A0-0C48-4A50-9FF1-FE9A9C1CDFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9627A0-0C48-4A50-9FF1-FE9A9C1CDFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9627A0-0C48-4A50-9FF1-FE9A9C1CDFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
