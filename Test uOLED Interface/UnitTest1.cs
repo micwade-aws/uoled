@@ -14,8 +14,7 @@ namespace Test_uOLED_Interface {
         public UnitTest1() {
             // Setup the port and baud rate
             m_portName = "COM3";
-            m_baudRate = 115200;
-            //m_baudRate = 256000;
+            m_baudRate = 115200;            
             m_Display = new uOLED(m_portName, m_baudRate);
         }
 
@@ -99,7 +98,7 @@ namespace Test_uOLED_Interface {
         public void Test_SetBackgroundColor() {
             Init();            
             m_Display.SetBackgroundColor(0xFFFF); //white
-            m_Display.SetBackgroundColor(0x0); //white
+            m_Display.SetBackgroundColor(0x0); //black
             Cleanup();
         }
 
